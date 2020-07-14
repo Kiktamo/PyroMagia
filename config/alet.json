@@ -1,0 +1,11 @@
+{
+  "universal": {
+    "allowURL": true,
+    "blockedSites": [
+      "www.url.com",
+      "www.url2.com"
+    ],
+    "maxPixelAmount": 9604,
+    "maxPixelText": 250000
+  }
+}

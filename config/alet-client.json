@@ -1,0 +1,20 @@
+{
+  "client": {
+    "colorAccuracy": 0,
+    "measurementName": [
+      "mm",
+      "cm",
+      "in"
+    ],
+    "measurementEquation": [
+      "M",
+      "M/10",
+      "M*(1/25.4)"
+    ],
+    "measurementDisplay": [
+      "Mmm",
+      "Mcm",
+      "Min"
+    ]
+  }
+}
