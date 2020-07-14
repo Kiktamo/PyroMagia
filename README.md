@@ -29,3 +29,14 @@ Those are just some of the thought processes that have gone into what I've done 
 ## End
 
 That's all. This text in and of itself isn't intended to be to serious and honestly just like how this pack itself is mostly something I'm making for myself, This repository is also something I'm mostly making to familiarize myself with Github a little more.
+
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
