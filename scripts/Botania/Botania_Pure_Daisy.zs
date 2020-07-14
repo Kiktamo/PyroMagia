@@ -1,0 +1,1 @@
+mods.botania.PureDaisy.addRecipe(<tconstruct:soil:3>, <tconstruct:soil:4>);

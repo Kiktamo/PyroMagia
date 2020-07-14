@@ -1,0 +1,346 @@
+{
+	"priority": 1000000000000,
+	"populate": {
+		"dirt": {
+
+			"distribution": "uniform",
+			"generator": {
+				"block": "dirt",
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"gravel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gravel",
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"sand": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "sand",
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"diorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "diorite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"granite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "granite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"marble": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quark:marble"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"limestone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quark:limestone"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"jasper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quark:jasper"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"slate": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quark:slate"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"brimstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quark:biome_cobblestone"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "HOT"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"permafrost": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quark:biome_cobblestone:1"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "COLD"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"basalt": {
+			"distribution": "underfluid",
+			"fluid": "lava",
+			"generator": {
+				"block": {
+					"name": "quark:basalt"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"brimstone_lava": {
+			"distribution": "underfluid",
+			"fluid": "lava",
+			"generator": {
+				"block": {
+					"name": "quark:biome_cobblestone"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},		
+
+		"andesite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "andesite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "creepingnether:goldleaves:*"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "naturesaura:gold_leaf"
+            ],
+			"quantity": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

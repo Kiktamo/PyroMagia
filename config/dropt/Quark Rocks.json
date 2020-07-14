@@ -1,0 +1,1296 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:marble"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_marble:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:marble"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_marble:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_marble:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:marble"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;-1;1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_marble:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:slate"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_slate:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:slate"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_slate:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_slate:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:slate"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;-1;1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_slate:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:jasper"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_jasper:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:jasper"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_jasper:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_jasper:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:jasper"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;-1;1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_jasper:0"
+          ]
+		 }
+		}
+	  ]
+    },	
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:basalt"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_basalt:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:basalt"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_basalt:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_basalt:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:basalt"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;-1;1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_basalt:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:cobblestone_marble:0"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_marble:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:cobblestone_marble:0"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_marble:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_marble:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:cobblestone_slate:0"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_slate:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:cobblestone_slate:0"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_slate:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_slate:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:cobblestone_jasper:0"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_jasper:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:cobblestone_jasper:0"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_jasper:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_jasper:0"
+          ]
+		 }
+		}
+	  ]
+    },	
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:cobblestone_basalt:0"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_basalt:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:cobblestone_basalt:0"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_basalt:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "contenttweaker:cobblestone_basalt:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:marble:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_marble:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:marble:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_marble:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "quark:marble:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:marble:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;-1;1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+		{
+		 "item": {		  
+			"items" : [
+              "quark:marble:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:slate:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_slate:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:slate:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_slate:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "quark:slate:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:slate:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;-1;1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+		{
+		 "item": {		  
+			"items" : [
+              "quark:slate:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:jasper:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_jasper:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:jasper:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_jasper:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "quark:jasper:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:jasper:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;-1;1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+		{
+		 "item": {		  
+			"items" : [
+              "quark:jasper:0"
+          ]
+		 }
+		}
+	  ]
+    },	
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:basalt:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "contenttweaker:rock_basalt:0"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:basalt:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "contenttweaker:rock_basalt:0"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "quark:basalt:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:basalt:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;-1;1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+		{
+		 "item": {		  
+			"items" : [
+              "quark:basalt:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:limestone"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "pyrotech:rock:8"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:limestone"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "pyrotech:rock:8"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "pyrotech:cobblestone:3"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:limestone"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;-1;1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+		{
+		 "item": {		  
+			"items" : [
+              "pyrotech:cobblestone:3"
+          ]
+		 }
+		}
+	  ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:limestone:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+			"items": ["pyrotech:crude_pickaxe:*"]
+          }
+        }
+      },
+      "drops": [
+		{
+          "item": {
+            "items" : [
+              "pyrotech:rock:8"
+            ],
+		    "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:limestone:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;2;-1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            }
+          },
+          "item": {		  
+            "items" : [
+              "pyrotech:rock:8"
+            ],
+		    "quantity": {
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+		{
+		 "item": {		  
+			"items" : [
+              "quark:limestone:0"
+          ]
+		 }
+		}
+	  ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "quark:limestone:1"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "pickaxe;-1;1"
+          }
+        }
+      },
+	  "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+		{
+		 "item": {		  
+			"items" : [
+              "quark:limestone:0"
+          ]
+		 }
+		}
+	  ]
+    }	
+
+  ]
+}
